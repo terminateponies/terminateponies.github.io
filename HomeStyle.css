@@ -9,6 +9,28 @@
 body{
   background-image: url("https://download.unsplash.com/photo-1418226970361-9f1f7227d638");
 
+}
+#screen{
+  width: 400px;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #51475B;
+  opacity: .5;
+  color: #ffffff;
+  border:0;
+  padding:4px 8px;
+
+}
+#messagesDiv{
+  padding-bottom: 200px;
+}
+#inputForm{
+  margin:0 auto;
+  text-align: center;
+  color: #5887FF;
 
 
 
