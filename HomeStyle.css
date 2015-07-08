@@ -25,13 +25,21 @@ body{
 
 }
 #messagesDiv{
+  display: block;
+  width: 400px;
+  height: 300px
   padding-bottom: 210px;
-}
-#inputForm{
+  overflow: scroll;
   margin:0 auto;
   text-align: center;
   color: #5887FF;
 
 
 
+}
+#messages{
+  display: block;
+  width: 400px;
+  height: 300px;
+  overflow: scroll;
 }
