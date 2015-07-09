@@ -45,7 +45,7 @@ function submit(){
 }
 function regButton(){
   $("#logIn").hide();
-  $("#Registry").show()
+  $("#Registry").show();
 }
 function reg(){
       var userName = $("#username").val()
@@ -65,7 +65,6 @@ function reg(){
     }, function(error, authData) {
       if (error) {
         console.log("Login Failed!", error);
-        window.close()
       } else {
         console.log("Authenticated successfully with payload:", authData);
       }
