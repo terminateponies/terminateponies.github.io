@@ -8,10 +8,34 @@
 <link rel="stylesheet" type="text/css" href="HomeStyle.css">
 
 </head>
-<body>
+<body onload="start()">
+  <div id ="logIn">
+    <h1 id="wrong">
+    </h1>
+
+
+    <div id="logBox">
+      <div id="header">
+      Login
+    </div>
+      <div id="userN">
+        <input class = "input" id="name"placeholder="Name Here"/>
+      </div>
+      <div id="passC">
+          <input type="password" class = "input" id="password"placeholder="Password Here"/>
+      </div>
+        <button id="Submit" onclick="submit()">
+          Submit
+      </button>
+      <button id="regButton" onclick="regButton()">
+        Not Registered?
+      </button>
+    </div>
+  </div>
+  <div id ="messageScreen">
 
   <div id="Header">
-    Forum
+    Chat Room
   </div>
   <div id = "screen">
 
@@ -21,11 +45,32 @@
     </div>
 
     <div id = "inputForm">
-        <input type='text' id='nameInput' placeholder='Name'>
+        <input class='text' id='nameInput' placeholder='Name'>
         <input type='text' id='messageInput' placeholder='Message'>
     </div>
   </div>
+  </div>
 
+<div id="Registry">
+  <h1 id="regHead">
+    Register
+  </h1>
+  <div id="userBox">
+    <input class = "input" id="username"placeholder="Username">
+    <div id="passBox">
+      <input type="password" class = "input" id="password"placeholder="Password">
+      <div id="confirmPass">
+        <input type="password" class = "input" id="password"placeholder="Comfirm Password">
+  </div>
+<button id="reg" onclick="reg()">
+  Register
+</button>
+<h1 id="regSuccess">
+  Registered
+</h1>
+</div>
+</div>
+</div>
   <script src="HomeScript.js"></script>
 </body>
 </html>

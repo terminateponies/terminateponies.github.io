@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("https://download.unsplash.com/photo-1418226970361-9f1f7227d638");
+  background-image: url("https://download.unsplash.com/photo-1429198739803-7db875882052");
 
 }
 #screen{
@@ -18,8 +18,8 @@ body{
   margin-right: auto;
   display: block;
   background-color: #51475B;
-  opacity: .5;
-  color: #ffffff;
+  opacity: .7;
+  color: #8499B1;
   border:0;
   padding:4px 8px;
 
@@ -27,19 +27,133 @@ body{
 #messagesDiv{
   display: block;
   width: 400px;
-  height: 300px
-  padding-bottom: 210px;
+  height: 300px;
   overflow: scroll;
   margin:0 auto;
   text-align: center;
   color: #5887FF;
-
-
-
 }
 #messages{
   display: block;
   width: 400px;
   height: 300px;
   overflow: scroll;
+  font-size: 10px;
 }
+#inputForm{
+  font-size: 15px;
+  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+}
+
+
+
+
+
+#logBox{
+  padding-top:  19px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 550px;
+  background: linear-gradient(#AAAAAA, #878787, #636363);
+  margin-top: 170px;
+  border-radius: 10px;
+  display: block;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#userN{
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: #DDDBDB;
+  width: 200px;
+  height: 45px;
+
+
+
+
+}
+.input{
+  width: 200px;
+  height: 45px;
+  background-color: #DDDBDB;
+  border-radius: 7px;
+
+
+}
+#header{
+  font-size: 45px;
+  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+  margin-left: 170px;
+  margin-right: auto;
+  margin-top: 50px;
+  color: #E2E0E0;
+
+}
+#passC{
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: #DDDBDB;
+  width: 200px;
+  height: 45px;
+
+}
+#Submit{
+  margin-left: 170px;
+  margin-right: auto;
+  width: 120px;
+  height: 45px;
+  background-color: #2387B2;
+  margin-top: 50px;;
+  color: #EFEDED;
+
+
+}
+#wrong{
+  color:red;
+  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+#Registry{
+  display: block;
+  width: 450px;
+  height: 350px;
+  background: linear-gradient(#AAAAAA, #878787, #636363);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  margin-bottom: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  outline: 2;
+}
+#regButton{
+  height: 45px;
+  background-color: #4E87B6;
+  color: #ffffff;
+}
+#regHead{
+  color: #ffffff;
+  margin-left: 155px;
+  margin-right: auto;
+  text-shadow: 5px 5px 2px #888888;
+}
+#userBox{
+  margin-top: 110px;
+  margin-left: 127px;
+  margin-right: auto;
+}
+#reg{
+  display: block;
+  background-color: #4E87B6;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+regSuccess
